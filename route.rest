@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/602417a41980cb42c477f78a
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json 
+
+{
+    "name": "Prajwal",
+    "subscribedToChannel": "Prajwal Tech"
+}
+
+###
+DELETE http://localhost:3000/subscribers/602417a41980cb42c477f78a
+
+###
+PATCH http://localhost:3000/subscribers/602418031980cb42c477f78c
+Content-Type: application/json
+
+{
+    "name" : "pra"
+}
